@@ -93,6 +93,10 @@ We implemented custom data structures from scratch to maximize performance and d
 
 We are a team of four dedicated developers working on this project.
 
+### 👥 Team Members
+
+We are a team of four dedicated developers working on this project.
+
 <table>
   <tr>
     <td align="center">
@@ -108,7 +112,7 @@ We are a team of four dedicated developers working on this project.
       <span>🔄 Developer</span>
     </td>
     <td align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="80px;" alt=""/><br />
+      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140061.png" width="80px;" alt=""/><br />
       <sub><b>Shaheer Hassan</b></sub><br />
       <br />
       <span>🛠️ Developer</span>
@@ -127,7 +131,7 @@ We are a team of four dedicated developers working on this project.
 ### 💻 Tech Stack
 
 * **Language:** C++ (MINGW Compiler)
-* **Libraries:** `<iostream>`, `<string>`, `<vector>` (only where allowed)
+* **Libraries:** `<iostream>`, `<string>`
 * **Tools:** Visual Studio Code, Git
 
 ---
