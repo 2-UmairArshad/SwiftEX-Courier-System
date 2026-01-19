@@ -20,7 +20,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
     <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=checkmark&logoColor=white" alt="Status" />
-    <img src="https://img.shields.io/badge/Course-Data_Structures-orange?style=for-the-badge&logo=book&logoColor=white" alt="Course" />
+    <img src="https://img.shields.io/badge/Team-4_Members-blue?style=for-the-badge&logo=microsoft-teams&logoColor=white" alt="Team" />
   </p>
 </div>
 
@@ -44,74 +44,80 @@
 
 ### 🚀 About The Project
 
-[cite_start]**SwiftEx Pakistan Logistics System** is a robust console-based application designed to simulate and manage real-world courier operations[cite: 32]. [cite_start]It demonstrates the practical application of advanced algorithms to handle parcel sorting, route optimization, and tracking across a network of major Pakistani cities[cite: 33].
+**SwiftEx Pakistan Logistics System** is a robust console-based application designed to simulate and manage real-world courier operations. It demonstrates the practical application of advanced algorithms to handle parcel sorting, route optimization, and tracking across a network of major Pakistani cities.
 
-[cite_start]The system ensures efficiency through **Intelligent Routing** (Dijkstra's Algorithm) and **Priority Processing** (Heaps), ensuring critical deliveries like "Overnight" packages are handled first[cite: 35, 722].
+The system ensures efficiency through **Intelligent Routing** (Dijkstra's Algorithm) and **Priority Processing** (Heaps), ensuring critical deliveries like "Overnight" packages are handled first.
 
 ---
 
 ### 📦 Core Modules
 
-[cite_start]The system is divided into four distinct operational modules:
+The system is divided into four distinct operational modules:
 
 #### 1. Intelligent Parcel Sorting
-* [cite_start]**Logic:** Automatically sorts parcels based on urgency (Overnight, 2-Day, Normal) and weight[cite: 141].
-* [cite_start]**Mechanism:** Uses **Min-Heap Priority Queues** to ensure high-priority packages are processed before standard ones[cite: 143].
+* **Logic:** Automatically sorts parcels based on urgency (Overnight, 2-Day, Normal) and weight.
+* **Mechanism:** Uses **Min-Heap Priority Queues** to ensure high-priority packages are processed before standard ones.
 
 #### 2. Parcel Routing (Network Optimization)
-* [cite_start]**Logic:** Calculates the optimal delivery path between cities using **Dijkstra’s Algorithm** ($O(V^2)$)[cite: 168, 304].
-* [cite_start]**Coverage:** Includes major hubs: Lahore (Punjab), Karachi (Sindh), Peshawar (KPK), and Quetta (Balochistan)[cite: 351].
-* [cite_start]**Dynamic:** Supports road closures (blocking/unblocking paths) in real-time[cite: 172].
+* **Logic:** Calculates the optimal delivery path between cities using **Dijkstra’s Algorithm** ($O(V^2)$).
+* **Coverage:** Includes major hubs: Lahore (Punjab), Karachi (Sindh), Peshawar (KPK), and Quetta (Balochistan).
+* **Dynamic:** Supports road closures (blocking/unblocking paths) in real-time.
 
 #### 3. Real-Time Tracking
-* [cite_start]**Logic:** Provides instant status updates and history logs for any shipment[cite: 213].
-* [cite_start]**Efficiency:** Uses a **Hash Table** for $O(1)$ constant time lookup of tracking IDs (e.g., `SWX1000`)[cite: 215].
+* **Logic:** Provides instant status updates and history logs for any shipment.
+* **Efficiency:** Uses a **Hash Table** for $O(1)$ constant time lookup of tracking IDs (e.g., `SWX1000`).
 
 #### 4. Courier Operations Pipeline
 * **Flow:** Simulates the physical movement of packages through three stages:
-    1.  [cite_start]**Pickup Queue** (Batch of 5) [cite: 250]
-    2.  [cite_start]**Warehouse Queue** (Sorting/Loading) [cite: 256]
-    3.  [cite_start]**Transit Queue** (Out for Delivery) [cite: 261]
+    1.  **Pickup Queue** (Batch of 5)
+    2.  **Warehouse Queue** (Sorting/Loading)
+    3.  **Transit Queue** (Out for Delivery)
 
 ---
 
 ### 🧩 Data Structures Implemented
 
-[cite_start]We implemented custom data structures from scratch to maximize performance and demonstrate core CS concepts[cite: 45].
+We implemented custom data structures from scratch to maximize performance and demonstrate core CS concepts.
 
 | Data Structure | Implementation Details | Usage in Project |
 | :--- | :--- | :--- |
-| **🕸️ Graph** | Adjacency List with Weights | [cite_start]Models the map of Pakistani cities and calculates shortest paths[cite: 116, 123]. |
-| **⚡ Priority Queue** | Min-Heap Implementation | [cite_start]Manages "Overnight" and "2-Day" delivery queues based on priority scores[cite: 64, 80]. |
-| **🔑 Hash Table** | Polynomial Rolling Hash | Stores and retrieves Parcel objects by ID with $O(1)$ access. [cite_start]Handles collisions via Linear Probing[cite: 99, 107]. |
-| **🔄 Queue** | Singly Linked List (FIFO) | [cite_start]Manages standard parcel flow (Pickup $\to$ Warehouse $\to$ Transit)[cite: 83, 91]. |
-| **📦 Dynamic Array** | Resizable Array (2x Growth) | [cite_start]Stores operation logs and status history with $O(1)$ access[cite: 46, 55]. |
+| **🕸️ Graph** | Adjacency List with Weights | Models the map of Pakistani cities and calculates shortest paths. |
+| **⚡ Priority Queue** | Min-Heap Implementation | Manages "Overnight" and "2-Day" delivery queues based on priority scores. |
+| **🔑 Hash Table** | Polynomial Rolling Hash | Stores and retrieves Parcel objects by ID with $O(1)$ access. Handles collisions via Linear Probing. |
+| **🔄 Queue** | Singly Linked List (FIFO) | Manages standard parcel flow (Pickup $\to$ Warehouse $\to$ Transit). |
+| **📦 Dynamic Array** | Resizable Array (2x Growth) | Stores operation logs and status history with $O(1)$ access. |
 
 ---
 
 ### 👥 Team Members
 
-We are a team of three working on System, Integration, and Unit testing.
+We are a team of four dedicated developers working on this project.
 
 <table>
   <tr>
     <td align="center">
       <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="80px;" alt=""/><br />
-      <sub><b>Umair</b></sub><br />
+      <sub><b>Umair Arshad</b></sub><br />
       <br />
-      <span title="System Testing">💻 System Level Testing</span>
+      <span>💻 Developer</span>
     </td>
     <td align="center">
       <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" width="80px;" alt=""/><br />
-      <sub><b>Usman</b></sub><br />
+      <sub><b>Hussain Nawaz</b></sub><br />
       <br />
-      <span title="Integration Testing">🔄 Integration Level Testing</span>
+      <span>🔄 Developer</span>
     </td>
     <td align="center">
       <img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="80px;" alt=""/><br />
-      <sub><b>Abdul Muiz</b></sub><br />
+      <sub><b>Shaheer Hassan</b></sub><br />
       <br />
-      <span title="Unit Testing">🛠️ Unit Level Testing</span>
+      <span>🛠️ Developer</span>
+    </td>
+    <td align="center">
+      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140042.png" width="80px;" alt=""/><br />
+      <sub><b>Muhammad Irfan</b></sub><br />
+      <br />
+      <span>🚀 Developer</span>
     </td>
   </tr>
 </table>
@@ -120,8 +126,8 @@ We are a team of three working on System, Integration, and Unit testing.
 
 ### 💻 Tech Stack
 
-* [cite_start]**Language:** C++ (MINGW Compiler) [cite: 443]
-* [cite_start]**Libraries:** `<iostream>`, `<string>`, `<vector>` (only where allowed) [cite: 445]
+* **Language:** C++ (MINGW Compiler)
+* **Libraries:** `<iostream>`, `<string>`, `<vector>` (only where allowed)
 * **Tools:** Visual Studio Code, Git
 
 ---
