@@ -93,33 +93,37 @@ We implemented custom data structures from scratch to maximize performance and d
 
 We are a team of four dedicated developers working on this project.
 
-### 👥 Team Members
-
-We are a team of four dedicated developers working on this project.
-
 <table>
   <tr>
     <td align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="80px;" alt=""/><br />
-      <sub><b>Umair Arshad</b></sub><br />
+      <a href="https://github.com/2-UmairArshad">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="80px;" alt="Umair Arshad"/><br />
+      </a>
+      <sub><b><a href="https://github.com/2-UmairArshad">Umair Arshad</a></b></sub><br />
       <br />
       <span>💻 Developer</span>
     </td>
     <td align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" width="80px;" alt=""/><br />
-      <sub><b>Hussain Nawaz</b></sub><br />
+      <a href="https://www.linkedin.com/in/hussain-nawaz-b835453a2">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" width="80px;" alt="Hussain Nawaz"/><br />
+      </a>
+      <sub><b><a href="https://www.linkedin.com/in/hussain-nawaz-b835453a2">Hussain Nawaz</a></b></sub><br />
       <br />
       <span>🔄 Developer</span>
     </td>
     <td align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140061.png" width="80px;" alt=""/><br />
-      <sub><b>Shaheer Hassan</b></sub><br />
+      <a href="https://www.linkedin.com/in/shaheer-hassan-khan-2567a6385/">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140061.png" width="80px;" alt="Shaheer Hassan"/><br />
+      </a>
+      <sub><b><a href="https://www.linkedin.com/in/shaheer-hassan-khan-2567a6385/">Shaheer Hassan</a></b></sub><br />
       <br />
       <span>🛠️ Developer</span>
     </td>
     <td align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140042.png" width="80px;" alt=""/><br />
-      <sub><b>Muhammad Irfan</b></sub><br />
+      <a href="https://github.com/Irfan-Bajwa">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140042.png" width="80px;" alt="Muhammad Irfan"/><br />
+      </a>
+      <sub><b><a href="https://github.com/Irfan-Bajwa">Muhammad Irfan</a></b></sub><br />
       <br />
       <span>🚀 Developer</span>
     </td>
