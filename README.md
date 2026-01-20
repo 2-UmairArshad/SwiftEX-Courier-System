@@ -59,7 +59,7 @@ The system is divided into four distinct operational modules:
 * **Mechanism:** Uses **Min-Heap Priority Queues** to ensure high-priority packages are processed before standard ones.
 
 #### 2. Parcel Routing (Network Optimization)
-* **Logic:** Calculates the optimal delivery path between cities using **Dijkstra’s Algorithm** ($O(V^2)$).
+* **Logic:** Calculates the optimal delivery path between cities using **Dijkstra’s Algorithm** $O(V^2)$.
 * **Coverage:** Includes major hubs: Lahore (Punjab), Karachi (Sindh), Peshawar (KPK), and Quetta (Balochistan).
 * **Dynamic:** Supports road closures (blocking/unblocking paths) in real-time.
 
