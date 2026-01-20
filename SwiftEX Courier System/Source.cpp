@@ -9,7 +9,7 @@ using namespace std;
  *   - operator[]: O(1)
  *   - removeAt(): O(n) shifting elements
  *   - clear(): O(1)
- * Space Complexity: O(h)
+ * Space Complexity: O(n)
  */
 template <typename T>
 class DynamicArray {
